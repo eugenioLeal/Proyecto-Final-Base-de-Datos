@@ -1,0 +1,340 @@
+/*-----------------------------------
+			General
+-----------------------------------*/
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+
+}
+/*-----------------------------------
+			Header + Navigation
+-----------------------------------*/
+h1 {
+	float: left;
+	margin: auto 20%;
+	padding: 5px 5px;
+}
+h2 {
+	width: 50%;
+	margin: 5% 5%;
+}
+
+nav{
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+/*-----------------------------------
+			Home
+-----------------------------------*/
+.primary-content,
+.secondary-content {
+  width: 95%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+	text-align: left;
+}
+
+.primary-content {
+	width: 50%;
+	background: linear-gradient(rgba(0,0,0,0.9), transparent 90%),
+    linear-gradient(0deg, #333, transparent),
+    #ffa949 url('../img/party.jpg') no-repeat center;
+  background-size: cover;
+	color: white;
+	text-align: left;
+	padding: 5% 5%;
+	border-top: 10px solid rgba(0,0,0,0.3);
+  margin: auto;
+  box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+}
+
+
+.secondary-content {
+
+}
+
+.arrow {
+	display:none;
+}
+
+.introPic {
+
+}
+/*-----------------------------------
+			Contact
+-----------------------------------*/
+#info {
+	width: 90%;
+	margin: auto;
+	color: white;
+	background:rgba(0,0,0,0.3);
+}
+#info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+#info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+#info li.mail  a {
+	background-image: url('../img/mail.png');
+}
+
+#info li.twitter  a {
+	background-image: url('../img/twitter.png');
+}
+/*-----------Contoct form----------*/
+
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 60%;
+	margin: auto;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+
+.submit:hover {
+	color: #3498db;
+}
+
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+
+/*-----------------------------------
+			Gallery
+-----------------------------------*/
+
+
+
+/*-----------------------------------
+			Footer
+-----------------------------------*/
+footer {
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: black;
+}
+
+.social-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+}
+
+
+/*-----------------------------------
+			Media Querys
+-----------------------------------*/
+
+@media (min-width: 480px) {
+		.arrow {
+			display: block;
+			width: 20%;
+			margin: auto;
+		}
+}
+
+/*-----------------------------------
+			Video
+-----------------------------------*/
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 		background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  	background-size: cover;
+  	transition: 1s opacity;
+}
+/*-----------------------------------
+			Pause Button
+-----------------------------------*/
+
+#polina button {
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover {
+   background: rgba(0,0,0,0.5);
+}
